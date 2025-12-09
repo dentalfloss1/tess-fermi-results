@@ -1,13 +1,16 @@
 GCN Name,Fermi Name,Enclosed Probability,TESS Sector,Trigger,Details,RA,Declination,Error Radius (arcmin),Localization Source,Alt. Local. Cam,Alt. Local. CCD,Alt. Local. Col,Alt. Local. Row,LC,Result
-,GRB251203346,0.00082,98,2025-12-03 08:16:32.539,<a href=yr25/GRB251203346.html>details</a>,165.55,-46.9,129.60000000000002,"Fermi, GBM              ",,,,,,
-,GRB251202769,0.00000,98,2025-12-02 18:24:51.076,<a href=yr25/GRB251202769.html>details</a>,347.21,-23.34,270.0,"Fermi, GBM              ",,,,,,
-,GRB251202077,0.00000,98,2025-12-02 01:48:35.087,<a href=yr25/GRB251202077.html>details</a>,122.119,40.6125,0.36,"Einstein Probe, FXT     ",-1,-1,-1,-1,,
-,GRB251201685,0.00000,98,2025-12-01 16:24:11.095,<a href=yr25/GRB251201685.html>details</a>,6.3946,-44.2323,0.066,"Swift, XRT              ",-1,-1,-1,-1,,
-,GRB251130648,0.85079,98,2025-11-30 15:31:02.938,<a href=yr25/GRB251130648.html>details</a>,78.816,-43.314,104.64,"Fermi, GBM              ",,,,,,unexamined
-,GRB251130030,0.00001,98,2025-11-30 00:40:50.723,<a href=yr25/GRB251130030.html>details</a>,176.65,-60.41,304.8,"Fermi, GBM              ",,,,,,
+,GRB251208536,0.00000,98,2025-12-08 12:50:20.257,<a href=yr25/GRB251208536.html>details</a>,312.79,-30.74,290.4,"Fermi, GBM              ",,,,,,
+,GRB251208429,0.00000,98,2025-12-08 10:15:06.220,<a href=yr25/GRB251208429.html>details</a>,212.34,30.07,345.0,"Fermi, GBM              ",,,,,,
+,GRB251208393,0.02363,98,2025-12-08 09:23:43.689,<a href=yr25/GRB251208393.html>details</a>,32.83,-66.66,232.20000000000002,"Fermi, GBM              ",,,,,,unexamined
+GRB 251203A,GRB251203346,0.00082,98,2025-12-03 08:16:32.539,<a href=yr25/GRB251203346.html>details</a>,165.55,-46.9,129.60000000000002,"Fermi, GBM              ",,,,,,
+GRB 251202B,GRB251202769,0.00000,98,2025-12-02 18:24:51.076,<a href=yr25/GRB251202769.html>details</a>,347.21,-23.34,270.0,"Fermi, GBM              ",,,,,,
+GRB 251202A,GRB251202077,0.00000,98,2025-12-02 01:48:35.087,<a href=yr25/GRB251202077.html>details</a>,122.119,40.6125,0.36,"Einstein Probe, FXT     ",-1,-1,-1,-1,,
+GRB 251201B,GRB251201685,0.00000,98,2025-12-01 16:24:11.095,<a href=yr25/GRB251201685.html>details</a>,6.3946,-44.2323,0.066,"Swift, XRT              ",-1,-1,-1,-1,,
+GRB 251130B,GRB251130648,0.85079,98,2025-11-30 15:31:02.938,<a href=yr25/GRB251130648.html>details</a>,78.816,-43.314,104.64,"Fermi, GBM              ",,,,,,unexamined
+GRB 251130A,GRB251130030,0.00001,98,2025-11-30 00:40:50.723,<a href=yr25/GRB251130030.html>details</a>,176.65,-60.41,304.8,"Fermi, GBM              ",,,,,,
 GRB 251128A,GRB251128182,0.00000,98,2025-11-28 04:21:28.107,<a href=yr25/GRB251128182.html>details</a>,117.51,52.25,120.6,"Fermi, GBM              ",,,,,,
 GRB 251127A,GRB251127137,0.00000,98,2025-11-27 03:15:24.528,<a href=yr25/GRB251127137.html>details</a>,155.55,30.24,247.79999999999998,"Fermi, GBM              ",,,,,,
-,GRB251126665,0.00000,98,2025-11-26 15:54:44.556,<a href=yr25/GRB251126665.html>details</a>,321.15,-28.24,859.2,"Fermi, GBM              ",,,,,,
+GRB 251126B,GRB251126665,0.00000,98,2025-11-26 15:54:44.556,<a href=yr25/GRB251126665.html>details</a>,321.15,-28.24,859.2,"Fermi, GBM              ",,,,,,
 GRB 251125B,GRB251125850,0.00000,98,2025-11-25 20:21:33.781,<a href=yr25/GRB251125850.html>details</a>,237.49,57.55,184.8,"Fermi, GBM              ",,,,,,
 GRB 251125A,GRB251125041,0.00000,98,2025-11-25 00:57:26.428,<a href=yr25/GRB251125041.html>details</a>,161.92,-7.62,455.4,"Fermi, GBM              ",,,,,,
 GRB 251124A,GRB251124540,0.00000,98,2025-11-24 12:55:46.251,<a href=yr25/GRB251124540.html>details</a>,258.14,16.86,60.0,"Fermi, GBM              ",,,,,,
