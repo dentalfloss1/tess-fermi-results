@@ -2,7 +2,7 @@ GCN Name,Fermi Name,Enclosed Probability,TESS Sector,Trigger,Details,RA,Declinat
 ,GRB260105973,0.00000,99,2026-01-05 23:19:24.576,<a href=yr26/GRB260105973.html>details</a>,259.71,1.74,121.79999999999998,"Fermi, GBM              ",,,,,,
 ,GRB260105949,0.00000,99,2026-01-05 22:44:54.449,<a href=yr26/GRB260105949.html>details</a>,64.54,55.5,199.8,"Fermi, GBM              ",,,,,,
 ,GRB260104999,0.00000,98,2026-01-04 23:55:40.711,<a href=yr26/GRB260104999.html>details</a>,312.74,-26.12,556.8,"Fermi, GBM              ",,,,,,
-,GRB260104243,0.62615,98,2026-01-04 05:47:46.548,<a href=yr26/GRB260104243.html>details</a>,87.421,-29.649,616.62,"Fermi, GBM              ",,,,,,unexamined
+,GRB260104243,0.62615,98,2026-01-04 05:47:46.548,<a href=yr26/GRB260104243.html>details</a>,72.48,-29.51,776.4,"Fermi, GBM              ",,,,,,unexamined
 ,GRB260102883,0.18249,98,2026-01-02 21:09:45.643,<a href=yr26/GRB260102883.html>details</a>,60.66,-67.83,1059.6,"Fermi, GBM              ",,,,,,unexamined
 ,GRB260101039,0.00000,98,2026-01-01 00:54:13.944,<a href=yr26/GRB260101039.html>details</a>,86.4274,63.5917,0.0,"Swift, XRT              ",-1,-1,-1,-1,,
 ,GRB251228029,0.00000,98,2025-12-28 00:39:58.927,<a href=yr25/GRB251228029.html>details</a>,150.23,49.83,643.2,"Fermi, GBM              ",,,,,,
