@@ -1,4 +1,5 @@
 GCN Name,Fermi Name,Enclosed Probability,TESS Sector,Trigger,Details,RA,Declination,Error Radius (arcmin),Localization Source,Alt. Local. Cam,Alt. Local. CCD,Alt. Local. Col,Alt. Local. Row,LC,Result
+,GRB260115741,0.00244,99,2026-01-15 17:44:29.686,<a href=yr26/GRB260115741.html>details</a>,110.21,3.29,304.8,"Fermi, GBM              ",,,,,,
 ,GRB260114486,0.00000,99,2026-01-14 11:38:08.131,<a href=yr26/GRB260114486.html>details</a>,74.5983,-8.0143,0.06,"Swift, XRT              ",-1,-1,-1,-1,,
 ,GRB260112865,0.00000,99,2026-01-12 20:43:33.649,<a href=yr26/GRB260112865.html>details</a>,238.62,-3.5,470.4,"Fermi, GBM              ",,,,,,
 ,GRB260112226,0.00000,99,2026-01-12 05:23:39.650,<a href=yr26/GRB260112226.html>details</a>,312.58,-48.53,478.8,"Fermi, GBM              ",,,,,,
