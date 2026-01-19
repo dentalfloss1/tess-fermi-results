@@ -1,9 +1,9 @@
 GCN Name,Fermi Name,Enclosed Probability,TESS Sector,Trigger,Details,RA,Declination,Error Radius (arcmin),Localization Source,Alt. Local. Cam,Alt. Local. CCD,Alt. Local. Col,Alt. Local. Row,LC,Result
-,GRB260115741,0.00244,99,2026-01-15 17:44:29.686,<a href=yr26/GRB260115741.html>details</a>,110.21,3.29,304.8,"Fermi, GBM              ",,,,,,
-,GRB260114486,0.00000,99,2026-01-14 11:38:08.131,<a href=yr26/GRB260114486.html>details</a>,74.5983,-8.0143,0.06,"Swift, XRT              ",-1,-1,-1,-1,,
-,GRB260112865,0.00000,99,2026-01-12 20:43:33.649,<a href=yr26/GRB260112865.html>details</a>,238.62,-3.5,470.4,"Fermi, GBM              ",,,,,,
-,GRB260112226,0.00000,99,2026-01-12 05:23:39.650,<a href=yr26/GRB260112226.html>details</a>,312.58,-48.53,478.8,"Fermi, GBM              ",,,,,,
-,GRB260111690,0.00000,99,2026-01-11 16:30:56.794,<a href=yr26/GRB260111690.html>details</a>,229.573,51.97,4.998,"Swift, BAT              ",-1,-1,-1,-1,,
+GRB 260115A,GRB260115741,0.00244,99,2026-01-15 17:44:29.686,<a href=yr26/GRB260115741.html>details</a>,110.21,3.29,304.8,"Fermi, GBM              ",,,,,,
+GRB 260114A,GRB260114486,0.00000,99,2026-01-14 11:38:08.131,<a href=yr26/GRB260114486.html>details</a>,74.5983,-8.0143,0.06,"Swift, XRT              ",-1,-1,-1,-1,,
+GRB 260112B,GRB260112865,0.00000,99,2026-01-12 20:43:33.649,<a href=yr26/GRB260112865.html>details</a>,238.62,-3.5,470.4,"Fermi, GBM              ",,,,,,
+GRB 260112A,GRB260112226,0.00000,99,2026-01-12 05:23:39.650,<a href=yr26/GRB260112226.html>details</a>,312.58,-48.53,478.8,"Fermi, GBM              ",,,,,,
+GRB 260111A,GRB260111690,0.00000,99,2026-01-11 16:30:56.794,<a href=yr26/GRB260111690.html>details</a>,229.573,51.97,4.998,"Swift, BAT              ",-1,-1,-1,-1,,
 GRB 260109B,GRB260109362,0.51517,99,2026-01-09 08:39:11.281,<a href=yr26/GRB260109362.html>details</a>,197.53,-73.94,820.8,"Fermi, GBM              ",,,,,,unexamined
 GRB 260109A,GRB260109156,0.00003,99,2026-01-09 03:42:06.546,<a href=yr26/GRB260109156.html>details</a>,307.28,-68.98,477.6,"Fermi, GBM              ",,,,,,
 GRB 260107A,GRB260107831,0.00000,99,2026-01-07 19:54:50.084,<a href=yr26/GRB260107831.html>details</a>,338.97,2.01,156.6,"Fermi, GBM              ",,,,,,
