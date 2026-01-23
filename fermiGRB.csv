@@ -1,4 +1,6 @@
 GCN Name,Fermi Name,Enclosed Probability,TESS Sector,Trigger,Details,RA,Declination,Error Radius (arcmin),Localization Source,Alt. Local. Cam,Alt. Local. CCD,Alt. Local. Col,Alt. Local. Row,LC,Result
+,GRB260122701,-1.00000,99,2026-01-22 16:47:08.257,,129.014,-58.969,1236.3,"Fermi, GBM              ",,,,,,
+,GRB260122398,0.00000,99,2026-01-22 09:31:29.018,<a href=yr26/GRB260122398.html>details</a>,307.78,-12.79,387.0,"Fermi, GBM              ",,,,,,
 ,GRB260120963,0.00000,99,2026-01-20 23:04:54.472,<a href=yr26/GRB260120963.html>details</a>,261.98,3.35,561.0,"Fermi, GBM              ",,,,,,
 ,GRB260120750,0.00000,99,2026-01-20 17:58:09.835,<a href=yr26/GRB260120750.html>details</a>,284.666,61.912,3.0,"Swift, BAT              ",-1,-1,-1,-1,,
 ,GRB260120168,0.00000,99,2026-01-20 03:59:37.097,<a href=yr26/GRB260120168.html>details</a>,345.9,-24.72,151.2,"Fermi, GBM              ",,,,,,
@@ -360,7 +362,7 @@ GRB 240828A,GRB240828622,0.00000,82,2024-08-28 14:52:51.852,<a href=yr24/GRB2408
 GRB 240825A,GRB240825662,0.00000,82,2024-08-25 15:50:45.491,<a href=yr24/GRB240825662.html>details</a>,344.569,1.0253,0.204,"Swift, XRT              ",-1,-1,-1,-1,,
 GRB 240824C,GRB240824640,0.00000,82,2024-08-24 15:20:01.800,<a href=yr24/GRB240824640.html>details</a>,152.58,-28.44,515.4,"Fermi, GBM              ",,,,,,
 GRB 240824B,GRB240824549,0.00000,82,2024-08-24 13:09:03.321,<a href=yr24/GRB240824549.html>details</a>,17.835,2.62,3.0,"Swift, BAT              ",-1,-1,-1,-1,,
-GRB 240821A,GRB240821775,0.00000,82,2024-08-21 18:33:47.224,<a href=yr24/GRB240821775.html>details</a>,354.23,10.18,13.002,"Swift, XRT              ",-1,-1,-1,-1,,
+GRB 240821A,GRB240821775,0.00000,82,2024-08-21 18:33:47.224,<a href=yr24/GRB240821775.html>details</a>,354.23,-10.18,13.002,"SVOM, ECLAIRs           ",-1,-1,-1,-1,,
 GRB 240821B,GRB240821721,0.28958,82,2024-08-21 17:15:25.138,<a href=yr24/GRB240821721.html>details</a>,228.98,77.4,196.79999999999998,"Fermi, GBM              ",,,,,,unexamined
 GRB 240817A,GRB240817057,0.00000,82,2024-08-17 01:19:49.827,<a href=yr24/GRB240817057.html>details</a>,227.02,-45.81,465.59999999999997,"Fermi, GBM              ",,,,,,
 GRB 240814C,GRB240814785,0.00000,82,2024-08-14 18:48:02.773,<a href=yr24/GRB240814785.html>details</a>,136.08,47.22,146.4,"Fermi, GBM              ",,,,,,
