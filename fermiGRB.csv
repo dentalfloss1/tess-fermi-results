@@ -1,9 +1,11 @@
 GCN Name,Fermi Name,Enclosed Probability,TESS Sector,Trigger,Details,RA,Declination,Error Radius (arcmin),Localization Source,Alt. Local. Cam,Alt. Local. CCD,Alt. Local. Col,Alt. Local. Row,LC,Result
+,GRB260314041,-1.00000,101,2026-03-14 00:56:39.279,,260.25,62.9,494.40000000000003,"Fermi, GBM              ",,,,,,
+,GRB260313500,0.00000,101,2026-03-13 11:58:15.958,<a href=yr26/GRB260313500.html>details</a>,241.16,5.8,348.0,"Fermi, GBM              ",,,,,,
 ,GRB260312407,0.00000,101,2026-03-12 09:44:31.909,<a href=yr26/GRB260312407.html>details</a>,25.94,-3.89,113.39999999999999,"Fermi, GBM              ",,,,,,
 ,GRB260311790,0.00000,101,2026-03-11 18:55:41.276,<a href=yr26/GRB260311790.html>details</a>,278.47,0.39,704.4,"Fermi, GBM              ",,,,,,
 ,GRB260311150,0.01377,101,2026-03-11 03:33:27.110,<a href=yr26/GRB260311150.html>details</a>,291.29,-43.53,647.4,"Fermi, GBM              ",,,,,,unexamined
 ,GRB260310904,0.00000,101,2026-03-10 21:39:11.924,<a href=yr26/GRB260310904.html>details</a>,119.63,12.95,399.0,"Fermi, GBM              ",,,,,,
-,GRB260310206,0.00000,101,2026-03-10 04:54:53.592,<a href=yr26/GRB260310206.html>details</a>,213.56,78.73,258.0,"Fermi, GBM              ",,,,,,
+,GRB260310206,0.00000,101,2026-03-10 04:54:53.592,<a href=yr26/GRB260310206.html>details</a>,219.3158,71.8417,0.18,"Einstein Probe, FXT     ",-1,-1,-1,-1,,
 ,GRB260308837,0.00001,101,2026-03-08 20:03:36.737,<a href=yr26/GRB260308837.html>details</a>,250.24,-32.61,218.4,"Fermi, GBM              ",,,,,,
 GRB 260307A,GRB260307478,0.00002,101,2026-03-07 11:25:40.153,<a href=yr26/GRB260307478.html>details</a>,209.074,29.028,172.68,"Fermi, GBM              ",,,,,,
 GRB 260305A,GRB260305112,0.00000,101,2026-03-05 02:39:26.088,<a href=yr26/GRB260305112.html>details</a>,216.46,34.04,141.6,"Fermi, GBM              ",,,,,,
