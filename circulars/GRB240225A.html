@@ -1,0 +1,66 @@
+<html><head>
+<title>GRB 240225A circulars</title>
+</head><body bgcolor="#ffffff">
+<table border="1">
+  <tr>
+    <td><a href="../index.html">Fermi</a></td>
+    <td><a href="../nonfermi.html">Non-Fermi GRBs</a></td>
+    <td><a href="../ep.html">EP Events</a></td>
+    <td>Blind Transients</td>
+  </tr>
+</table>
+<h2>GRB 240225A</h2>
+<p>Aliases: GRB 240225A</p>
+<hr>
+<h3>GCN Circular 35793: GRB 240225A: Swift/BAT-GUANO detection of a short burst</h3>
+<p><b>Event ID:</b> GRB 240225A<br>
+<b>Submitter:</b> Jimmy DeLaunay at Penn State &lt;delauj2@gmail.com&gt;<br>
+<b>Created:</b> 2024-02-25 23:15:07 UTC<br>
+<b>Source file:</b> 35793.json</p>
+<pre>James DeLaunay (PSU), Gayathri Raman (PSU), Samuele Ronchini (PSU), Aaron Tohuvavohu (U Toronto), Jamie A. Kennea (PSU), Tyler Parsotan (NASA GSFC) report:
+
+Swift/BAT did not localize GRB 240225A onboard (T0: 2024-02-25T04:20:16.59 UTC, INTEGRAL SPI-ACS trigger 10589). 
+
+The Fermi notice, distributed in near real-time, triggered the Swift Mission Operations Center operated Gamma-ray Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1). 
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from [-50,+150] seconds around the time of the burst. All the requested event mode data was delivered to the ground.
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu 2022, ApJ, 941, 169), performed on the temporal window [T0-20 s, T0+20 s], detects the burst with a sqrt(TS) of 9.0 in a 1.024 s analysis time bin, starting at T0 + 1.28 s. 
+
+NITRATES results, independently, are ambiguous with respect to whether this burst originates from in or outside the BAT coded FOV, with a DeltaLLHOut of 6.5.
+
+See Section 9.1 and Figures 10 and 17 in the NITRATES paper for brief descriptions and interpretation of sqrt(TS), DeltaLLHPeak, and DeltaLLHOut.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/</pre>
+<hr>
+<h3>GCN Circular 35845: GRB 240225A (short): Glowbug gamma-ray detection</h3>
+<p><b>Event ID:</b> GRB 240225A<br>
+<b>Submitter:</b> C.C. Cheung at Naval Research Lab &lt;Teddy.Cheung@nrl.navy.mil&gt;<br>
+<b>Created:</b> 2024-03-02 14:34:30 UTC<br>
+<b>Source file:</b> 35845.json</p>
+<pre>C.C. Cheung, R. Woolf, M. Kerr, J.E. Grove (NRL), A. Goldstein (USRA), C.A. Wilson-Hodge, D. Kocevski (MSFC), and M.S. Briggs (UAH) report:
+ 
+The Glowbug gamma-ray telescope [1,2], operating on the International Space Station, reports the detection of the short GRB 240225A, which was also detected by Swift/BAT (GCN 35793) and INTEGRAL/SPI-ACS (Trigger 10589).
+ 
+Using an adaptive window with a resolution of 32-ms, the burst onset is determined to be 2024-02-25 04:20:17.488 with a duration of 2.05 s and a total significance of about 25.4 sigma.  The light curve comprises a single peak.
+ 
+Using a standard power-law function with an exponential high-energy cutoff [3] to model the emission over this duration results in a photon index dN/dE~E^x of x=0.04 and a cutoff energy (&quot;Epeak&quot;) of 670 keV.  The modeled 10-10000 keV fluence is 1.6e-06 erg/cm^2.
+ 
+The best-fit localization is RA, Decl. (J2000, deg) = 82.5,-37.9 with a radius of 14.3 deg (95% confidence), with a highly uncertain systematic uncertainty.
+ 
+The analysis results presented here are preliminary and use a response function that lacks a detailed characterization of the surrounding passive structure of the ISS.
+ 
+Glowbug is a NASA-funded technology demonstrator for sensitive, low-cost gamma-ray transient telescopes developed, built, and operated by the U.S. Naval Research Laboratory (NRL) with support from the University of Alabama in Huntsville, USRA, and NASA MSFC.  It was launched on 2023 March 15 aboard the Department of Defense Space Test Program’s STP-H9 to the ISS.  The detector comprises 12 large-area (15 cm x 15 cm) CsI:Tl panels covering the surface of a half cube, and two hexagonal (5-cm diameter, 10-cm length) CLLB scintillators, giving it a large field of view (instantaneous FoV ~2/3 sky) over a wide energy band of 50 keV to &gt;2 MeV.
+ 
+[1] Grove, J.E. et al. 2020, Proc. Yamada Conf. LXXI, arXiv:2009.11959
+[2] Woolf, R.S. et al. 2022, Proc. SPIE, 12181, id. 121811O
+[3] Goldstein, A. et al. 2020, ApJ 895, 40, arXiv :1909.03006
+ 
+Distribution Statement A: Approved for public release.  Distribution is unlimited.</pre>
+</body></html>

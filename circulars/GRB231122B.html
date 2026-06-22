@@ -1,0 +1,139 @@
+<html><head>
+<title>GRB 231122B circulars</title>
+</head><body bgcolor="#ffffff">
+<table border="1">
+  <tr>
+    <td><a href="../index.html">Fermi</a></td>
+    <td><a href="../nonfermi.html">Non-Fermi GRBs</a></td>
+    <td><a href="../ep.html">EP Events</a></td>
+    <td>Blind Transients</td>
+  </tr>
+</table>
+<h2>GRB 231122B</h2>
+<p>Aliases: GRB 231122B</p>
+<hr>
+<h3>GCN Circular 35157: GRB 231122B: GECAM detection</h3>
+<p><b>Event ID:</b> GRB 231122B<br>
+<b>Submitter:</b> Chenwei Wang at IHEP &lt;cwwang@ihep.ac.cn&gt;<br>
+<b>Created:</b> 2023-11-22 16:23:45 UTC<br>
+<b>Source file:</b> 35157.json</p>
+<pre>Chen-Wei Wang, Shao-Lin Xiong report on behalf of the GECAM team:
+GECAM-B was triggered in-flight by a long burst, GRB 231122B 
+at 2023-11-22T15:12:41.050 UTC (denoted as T0), 
+which was also detected by CALET/GBM (trigger num 1384701074).
+
+According to the realtime alert data of GECAM-B, this burst mainly consists of many pulses
+with a duration of about 50 s. The time-averaged spectrum from T0 to T0+17 s 
+could be adequately fit by a power law with high energy exponential cutoff function 
+with a fluence of about 9.8E-6 erg/cm2 in 20-1000 keV.
+
+Using the automatic on-ground localization pipeline with the realtime alert data, 
+GECAM-B localized this burst to the following position (J2000): 
+Ra: 106.2 deg 
+Dec: -21.3 deg
+Err: 1.5 deg (1-sigma, statistical only)
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission originally consists of two micro-satellites (GECAM-A and GECAM-B)
+launched in Dec. 2020. As the third member of GECAM constellation, 
+GECAM-C was launched onboard SATech-01 experimental satellite in July 2022. 
+GECAM mission is funded by the Chinese Academy of Sciences (CAS).</pre>
+<hr>
+<h3>GCN Circular 35161: GRB 231122B: Glowbug gamma-ray detection</h3>
+<p><b>Event ID:</b> GRB 231122B<br>
+<b>Submitter:</b> C.C. Cheung at Naval Research Lab &lt;Teddy.Cheung@nrl.navy.mil&gt;<br>
+<b>Created:</b> 2023-11-22 21:21:17 UTC<br>
+<b>Source file:</b> 35161.json</p>
+<pre>C.C. Cheung, M. Kerr, J. E. Grove, R. Woolf (NRL), A. Goldstein (USRA), C.A. Wilson-Hodge (MSFC), and M.S. Briggs (UAH) report:                                                                                                                                                                                                                                                    
+
+The Glowbug gamma-ray telescope [1,2], operating on the International Space Station, reports the detection of GRB 231122B, which was also detected by GECAM-B (GCN 35157) and CALET/GBM (trigger ID Num 1384701074).
+
+Using an adaptive window with a resolution of 32-ms, the burst onset is determined to be 2023-11-22 15:12:34.760 with a duration of 41.0 s and a total significance of about 55.7 sigma.  The light curve comprises an initial peak at ~T0+5s followed by a multi-peaked structure with a maximum rate at ~T0+35s.
+
+Using a standard power-law function with an exponential high-energy cutoff [3] to model the emission over this duration results in a photon index dN/dE~E^x of x=0.9 and a cutoff energy (&quot;Epeak&quot;) of 308 keV.  The modeled 10-10000 keV fluence is 9.7e-06 erg/cm^2.
+
+The analysis results presented here are preliminary and use a response function that lacks a detailed characterization of the surrounding passive structure of the ISS.
+
+Glowbug is a NASA-funded technology demonstrator for sensitive, low-cost gamma-ray transient telescopes developed, built, and operated by the U.S. Naval Research Laboratory (NRL) with support from the University of Alabama in Huntsville, USRA, and NASA MSFC.  It was launched on 2023 March 15 aboard the Department of Defense Space Test Program’s STP-H9 to the ISS.  The detector comprises 12 large-area (15 cm x 15 cm) CsI:Tl panels covering the surface of a half cube, and two hexagonal (5-cm diameter, 10-cm length) CLLB scintillators, giving it a large field of view (instantaneous FoV ~2/3 sky) over a wide energy band of 50 keV to &gt;2 MeV.
+
+[1] Grove, J.E. et al. 2020, Proc. Yamada Conf. LXXI, arXiv:2009.11959
+[2] Woolf, R.S. et al. 2022, Proc. SPIE, 12181, id. 121811O
+[3] Goldstein, A. et al. 2020, ApJ 895, 40, arXiv :1909.03006
+
+Distribution Statement A: Approved for public release.  Distribution is unlimited.</pre>
+<hr>
+<h3>GCN Circular 35164: GRB 231122B: Swift/BAT-GUANO detection of a long burst outside the coded FOV </h3>
+<p><b>Event ID:</b> GRB 231122B<br>
+<b>Submitter:</b> Samuele Ronchini at PSU &lt;sjs8171@psu.edu&gt;<br>
+<b>Created:</b> 2023-11-23 03:43:29 UTC<br>
+<b>Source file:</b> 35164.json</p>
+<pre>Samuele Ronchini (PSU), James DeLaunay (PSU), Aaron Tohuvavohu (U Toronto),  Gayathri Raman (PSU), Jamie A. Kennea (PSU), Tyler Parsotan (NASA GSFC) report: 
+
+Swift/BAT did not localize GRB 231122B onboard (T0: 2023-11-22T15:12:41.050 UTC, GECAM GCN 35157, CALET trigger 1384701074, Glowbug GCN 35161) 
+
+The GECAM notice, distributed in near real-time, triggered the Swift Mission Operations Center operated Gamma-ray Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1). 
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from [-50,+150] seconds around the time of the burst. All the requested event mode data was delivered to the ground. 
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu 2022, ApJ, 941, 169), performed on the temporal window [T0-20 s, T0+20 s], detects the burst with a sqrt(TS) of 41.8 in a 16.384 s analysis time bin, starting at T0 + 16.38 s.
+
+NITRATES results are consistent with a burst coming from outside the FOV, with DeltaLLHOut of -29.5 and are consistent with GECAM localization (GCN 35157).
+
+See Section 9.1 and Figures 10 and 17 in the NITRATES paper for brief descriptions and interpretation of sqrt(TS), DeltaLLHPeak, and DeltaLLHOut. 
+
+GUANO is a fully autonomous, extremely low latency, spacecraft commanding pipeline designed for targeted recovery of BAT event mode data around the times of compelling astrophysical events to enable more sensitive GRB searches. 
+
+A live reporting of Swift/BAT event data recovered by GUANO can be found at: https://www.swift.psu.edu/guano/</pre>
+<hr>
+<h3>GCN Circular 35165: GRB 231122B: CALET Gamma-Ray Burst Monitor detection</h3>
+<p><b>Event ID:</b> GRB 231122B<br>
+<b>Submitter:</b> Yuta Kawakubo at Louisiana State University &lt;kawakubo1@lsu.edu&gt;<br>
+<b>Created:</b> 2023-11-23 03:58:18 UTC<br>
+<b>Source file:</b> 35165.json</p>
+<pre>Y. Asaoka (ICRR), A. Yoshida, T. Sakamoto, S. Sugita (AGU),
+Y. Kawakubo (LSU), K. Yamaoka (Nagoya U), S. Nakahira (JAXA),
+S. Torii, Y. Akaike, K. Kobayashi (Waseda U), Y. Shimizu, 
+T. Tamura (Kanagawa U), N. Cannady (GSFC/UMBC),
+M. L. Cherry (LSU), S. Ricciarini (U of Florence),
+P. S. Marrocchesi (U of Siena),
+and the CALET collaboration:
+
+The long GRB 231122B (GECAM detection: Wang et al., GCN
+Circ. 35157; Glowbug gamma-ray detection: Cheung et al., GCN
+Circ. 35161; Swift/BAT-GUANO detection: Ronchini et al., GCN
+Circ. 35164) triggered the CALET Gamma-ray Burst Monitor (CGBM)
+at 15:12:38.15 UTC on 22 November 2023
+(http://cgbm.calet.jp/cgbm_trigger/flight/1384701074/).
+The burst signal was seen by all CGBM detectors.
+
+The burst light curve shows a multi-peaked structure that starts
+at T+2.5 sec, peaks at T+3.3 sec, and ends at T+41.7 sec.
+The T90 and T50 durations measured by the SGM data are 34.0 +/- 1.0 sec
+and 22.6 +/- 1.3 sec (40-1000 keV), respectively.
+
+The ground-processed light curve is available at
+
+http://cgbm.calet.jp/cgbm_trigger/ground/1384701074/index.html
+
+The CALET data used in this analysis are provided by
+the Waseda CALET Operation Center located at Waseda University.</pre>
+<hr>
+<h3>GCN Circular 35166: GRB 231122B: AstroSat CZTI detection</h3>
+<p><b>Event ID:</b> GRB 231122B<br>
+<b>Submitter:</b> Gaurav Waratkar at IIT Bombay &lt;gauravwaratkar@iitb.ac.in&gt;<br>
+<b>Created:</b> 2023-11-23 06:38:32 UTC<br>
+<b>Source file:</b> 35166.json</p>
+<pre>P. K. Navaneeth (IUCAA), G. Waratkar (IITB), A. Vibhute (IUCAA), V. Bhalerao (IITB), D. Bhattacharya (Ashoka University/IUCAA), A. R. Rao (IUCAA/TIFR), and S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+Analysis of AstroSat CZTI data with the CIFT framework (Sharma et al., 2021, JApA, 42, 73) showed the detection of a bright long-duration GRB 231122B which was also detected by GECAM-B (Wang et al., GCN Circ. 35157), Glowbug (Cheung et al., GCN Circ. 35161), Swift-BAT GUANO (Ronchini et al., GCN Circ. 35164), and CALET (Asaoka et al., GCN Circ. 35165).
+
+The source was clearly detected in the CZT detectors in the 20-200 keV energy range. The light curve showed multiple peaks of emission with the strongest peak at 2023-11-22 15:13:12.50 UTC. The measured peak count rate associated with the burst is 456 (+42, -40) counts/s above the background in the combined data of three quadrants (out of four), with a total of 7475 (+364, -396) counts. The local mean background count rate was 240 (+2, -3) counts/s. Using cumulative rates, we measure a T90 of 34.1 (+1.7, -1.2) s. We caution that there is a 0.3 s readout dead time in CZTI data just before the burst. Hence, the T90 can be as large as 35.8 s for this GRB, with a lower limit of 32.9 s as estimated above by cumulative rates. In the preliminary analysis, we find 685 Compton events associated with this event.
+
+The source was also clearly detected in the CsI anticoincidence (Veto) detector in the 100-500 keV energy range. The light curve showed multiple peaks of emission with the strongest peak at 2023-11-22 15:13:11.68 UTC. The measured peak count rate associated with the burst is 538 (+68, -48) counts/s above the background in the combined data of all quadrants, with a total of 7112 (+819, -804) counts. The local mean background count rate was 1220 (+5, -6) counts/s. We measure a T90 of 32 (+2, -1) s from the cumulative Veto light curve.
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, URSC, IUCAA, SAC, and PRL. The Indian Space Research Organisation funded, managed, and facilitated the project.
+
+CZTI GRB detections are reported regularly on the payload site at:
+http://astrosat.iucaa.in/czti/?q=grb
+</pre>
+</body></html>

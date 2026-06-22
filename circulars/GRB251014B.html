@@ -1,0 +1,173 @@
+<html><head>
+<title>GRB 251014B circulars</title>
+</head><body bgcolor="#ffffff">
+<table border="1">
+  <tr>
+    <td><a href="../index.html">Fermi</a></td>
+    <td><a href="../nonfermi.html">Non-Fermi GRBs</a></td>
+    <td><a href="../ep.html">EP Events</a></td>
+    <td>Blind Transients</td>
+  </tr>
+</table>
+<h2>GRB 251014B</h2>
+<p>Aliases: GRB 251014B</p>
+<hr>
+<h3>GCN Circular 42263:  GRB 251014B: Swift/BAT-GUANO arcminute localization of a short burst</h3>
+<p><b>Event ID:</b> GRB 251014B<br>
+<b>Submitter:</b> Samuele Ronchini at PSU &lt;sjs8171@psu.edu&gt;<br>
+<b>Created:</b> 2025-10-14 17:05:50 UTC<br>
+<b>Source file:</b> 42263.json</p>
+<pre>Samuele Ronchini (GSSI), James DeLaunay (PSU), Aaron Tohuvavohu (Caltech), Jamie A. Kennea (PSU), Tyler Parsotan (NASA GSFC), Maia Williams (Northwestern) report:
+
+Swift/BAT did not localize GRB 251014B onboard (T0: 2025-10-14T04:47:21.17 UTC, Fermi trigger number 782110046). The Fermi notice, distributed in near real-time, triggered the Swift Mission Operations Center operated Gamma-ray Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1). Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from [-50,+150] seconds around the time of the burst. All the requested event mode data was delivered to the ground.
+
+The arcmin position of the burst is found with the newly developed pipeline BAT-GLIMPSE: Gamma-ray Localization using Imaging and Mosaic techniques for Pointing and Slew Epochs (Ronchini et. al, in prep). The pipeline makes use of the tools from BatAnalysis (Parsotan et al. 2025). The source is found with an SNR = 8.5
+
+Independently, the BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu 2022, ApJ, 941, 169), confirms the detection of the burst in a 2.048 s analysis time bin starting at T0 - 1.024 s with a sqrt(TS) of 19.78. An arcminute localization is found with DeltaLLHOut of 53.26 and a DeltaLLHPeak of 48.76. See Section 9.1 and Figures 10 and 17 in the NITRATES paper for brief descriptions and interpretations of sqrt(TS), DeltaLLHPeak, and DeltaLLHOut.
+
+The BAT position is:
+
+RA, Dec = 14.5954, -35.5802 deg
+
+which is
+
+RA(J2000) = 00h 58m 22.90s
+
+Dec(J2000) = -35d 34’ 48.7″
+
+with an estimated uncertainty of 3 arcmin radius.
+
+More details about this burst can be found on the trigger report page here: https://guano.swift.psu.edu/trigger_report?id=782110077
+
+XRT and UVOT follow-up has been requested. Results of follow-up observations will be reported in future circulars.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft commanding pipeline designed for targeted recovery of BAT event mode data around the times of compelling astrophysical events to enable more sensitive GRB searches. A live reporting of Swift/BAT event data recovered by GUANO can be found at: https://www.swift.psu.edu/guano/</pre>
+<hr>
+<h3>GCN Circular 42265: GRB 251014B: Swift ToO observations</h3>
+<p><b>Event ID:</b> GRB 251014B<br>
+<b>Submitter:</b> Phil Evans at U of Leicester &lt;pae9@star.le.ac.uk&gt;<br>
+<b>Created:</b> 2025-10-14 18:34:34 UTC<br>
+<b>Source file:</b> 42265.json</p>
+<pre>P. A. Evans (U. Leicester) reports on behalf of the Swift team:
+
+Swift has initiated a ToO observation of the Fermi/GBM-detected event
+GRB 251014B. Automated analysis of the XRT data will be presented online at
+https://www.swift.ac.uk/ToO_GRBs/00021863
+Any uncatalogued X-ray sources detected in this analysis will be
+reported on this website and via GCN COUNTERPART notices. These are
+not necessarily related to the Fermi/GBM event. Any X-ray source
+considered to be a probable afterglow candidate will be reported via a 
+GCN Circular after manual consideration.
+
+Details of the XRT automated analysis methods are detailed in Evans et
+al. (2007, A&amp;A, 469, 379; 2009, MNRAS, 397, 1177 and 2014, ApJS, 210, 8).
+
+This circular is an official product of the Swift-XRT team.
+
+</pre>
+<hr>
+<h3>GCN Circular 42287: GRB 251014B: VLT/FORS2 Optical Observation</h3>
+<p><b>Event ID:</b> GRB 251014B<br>
+<b>Submitter:</b> Roberto Ricci at INAF-IRA &lt;ricci@ira.inaf.it&gt;<br>
+<b>Created:</b> 2025-10-15 13:01:17 UTC<br>
+<b>Source file:</b> 42287.json</p>
+<pre>Muskan Yadav  (U Rome), Yu-Han Yang (U Rome), Roberto Ricci (U Rome), Niccolò Passaleva (U Rome), Rosa Becerra (U Rome), Eleonora Troja (U Rome), Lei Hu (Upenn) report on behalf of the ERC BHianca team:
+
+We observed the Swift-BAT/GUANO (Ronchini  et al., GCN 42263) field of GRB 251014B detected by Fermi-GBM (trigger number 782110046) with the FORS2 imager on the ESO VLT UT1 (Antu). Observations started on Oct 15th, 2025 at 05:22 UT (24.6 hours after the trigger) and were carried out in the R filter with an average airmass of ~1.06 and exposure time of 20 minutes.
+
+Image subtraction against the SkyMapper Southern Survey (SMSS) Fourth Data Release (DR4) catalog (Onken et., 2024) shows no new uncataloged sources down to a 3-sigma limiting magnitude of ~24 AB mag. Several fainter sources are visible within the XRT localization of source #2 (Evans et al., GCN 42265) within the BAT localization, however they match catalogued counterparts in the Dark Energy Survey (DES) catalogue (DR2; Abbott et al. 2021) and, without a deeper template image, we cannot assess their variability. 
+
+We thank the staff at the VLT for the rapid execution of these observations. 
+</pre>
+<hr>
+<h3>GCN Circular 42288: GRB 251014B: Swift/UVOT Upper Limits</h3>
+<p><b>Event ID:</b> GRB 251014B<br>
+<b>Submitter:</b> Alice Breeveld at MSSL-UCL &lt;a.breeveld@ucl.ac.uk&gt;<br>
+<b>Created:</b> 2025-10-15 14:32:04 UTC<br>
+<b>Source file:</b> 42288.json</p>
+<pre>A.A. Breeveld (UCL-MSSL) and N. J. Klingler (GSFC/UMBC/CRESSTII) report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 251014B
+49976 s after the Swift-BAT/GUANO trigger (Ronchini  et al., GCN 42263).
+No new optical afterglow is detected in the initial UVOT exposures. Preliminary 3-sigma upper limits using the UVOT photometric system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the initial exposures binned is:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white           49976       73120         7974         &gt;23.0
+
+The magnitudes in the table are not corrected for the Galactic extinction due to the reddening of E(B-V) = 0.014 in the direction of the burst (Schlegel et al. 1998).
+</pre>
+<hr>
+<h3>GCN Circular 42289: GRB 251014B: Swift-XRT observations</h3>
+<p><b>Event ID:</b> GRB 251014B<br>
+<b>Submitter:</b> Phil Evans at U of Leicester &lt;pae9@star.le.ac.uk&gt;<br>
+<b>Created:</b> 2025-10-15 14:43:08 UTC<br>
+<b>Source file:</b> 42289.json</p>
+<pre>S. Lanava (PSU), J.P. Osborne (U. Leicester), K.L. Page (U. Leicester),
+A.P. Beardmore (U. Leicester), A. D&#x27;Ai (INAF-IASFPA), S. Campana
+(INAF-OAB), A. Melandri (INAF-OAR), S. Dichiara (PSU), J.A. Kennea
+(PSU) and P.A. Evans (U. Leicester) reports on behalf of the Swift-XRT
+team:
+
+Swift-XRT has performed follow-up observations of the Fermi/GBM,
+Swift/BAT-GUANO-detected burst GRB 251014B, collecting	4.5 ks of
+Photon Counting (PC) mode data between T0+49.9 ks and T0+73.1 ks. 
+
+Three X-ray sources, of which two (Source 2  and Source 4) are
+uncatalogued, have been detected within the estimated 3-sigma
+Swift/BAT-GUANO error region (296 arcsec), however none of them is
+above the RASS limit or shows definitive signs of fading. Therefore, at
+the present time we cannot identify which, if any, is the afterglow.
+Details of these sources are given below:
+
+Source 2:
+  RA (J2000.0):  14.5787  =  00h 58m 18.89s
+  Dec (J2000.0): -35.5678  =  -35d 34&#x27; 04.2&quot;
+  Error: 7.3 arcsec (radius, 90% conf.)
+  Count-rate: (2.66 [+1.09, -0.87])e-3 ct s^-1	 
+  Distance: 66 arcsec from Fermi/GBM position.
+  Flux: (6.0 [+2.5, -2.0])e-14 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+Source 3:
+  RA (J2000.0):  14.6936  =  00h 58m 46.46s
+  Dec (J2000.0): -35.5767  =  -35d 34&#x27; 36.2&quot;
+  Error: 7.9 arcsec (radius, 90% conf.)
+  Count-rate: (1.52 [+0.90, -0.66])e-3 ct s^-1	 
+  Distance: 287 arcsec from Fermi/GBM position.
+Source 3 matches the position of the quasar [VV98] J005846.6-353444.
+
+Source 4:
+  RA (J2000.0):  14.6178  =  00h 58m 28.28s
+  Dec (J2000.0): -35.5331  =  -35d 31&#x27; 59.2&quot;
+  Error: 6.2 arcsec (radius, 90% conf.)
+  Count-rate: (1.87 [+0.98, -0.75])e-3 ct s^-1	 
+  Distance: 181 arcsec from Fermi/GBM position.
+  Flux: (6.5 [+3.4, -2.6])e-14 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+Source 4 is close to the 2MASS source J00582790-3531563 (5.4&quot;).
+
+Another uncatalogued source (Source 1) was also detected, however this
+was too far from the GRB position to be the afterglow.
+
+The results of the XRT-team automatic analysis of the XRT observations,
+including a position-specific upper limit calculator, are available at
+https://www.swift.ac.uk/ToO_GRBs/00021863.
+
+This circular is an official product of the Swift-XRT team.
+
+</pre>
+<hr>
+<h3>GCN Circular 42305: GRB 251014B: PRIME J-band upper limit</h3>
+<p><b>Event ID:</b> GRB 251014B<br>
+<b>Submitter:</b> N. Passaleva at Sapienza University of Rome &lt;niccolo.passaleva@uniroma1.it&gt;<br>
+<b>Created:</b> 2025-10-16 00:42:42 UTC<br>
+<b>Source file:</b> 42305.json</p>
+<pre>J. Durbak (UMD), N. Passaleva  (U Rome),  O. Guiffreda (UMD), M. El Kabir (U Rome),  E. Troja (U Rome), A. S. Kutyrev (NASA/GSFC), S. B. Cenko (NASA/GSFC) 
+
+Following the Swift/BAT-GUANO (Ronchini et al., GCN 42263) detection of Fermi/GBM-detected event, we observed the transient field in J filter with PRIME. Observations started ~16 hours after the initial Fermi trigger. 
+
+Using VISTA Kilo-degree Infrared Galaxy (VIKING) Survey nearby stars for preliminary calibration we do not detect any uncatalogued source down to J&gt;21 AB (3-sigma) not corrected for galactic extinction at the position of the candidates reported by Swift/XRT (Lanava et al. GCN 42289), confirming the optical non-detection reported by Yadav et al. (GCN 42287) 
+
+PRIME is a 1.8m telescope with 1.56 square degree FOV (0.5 arcsec/pixel) located in Sutherland, South Africa at the South African Astronomical Observatory (SAAO) (Kutyrev et al. 2023, Yama et al. 2023, Durbak et al. 2024). 
+
+We thank the Osaka University observers at PRIME and the staff at SAAO for their support with these observations. </pre>
+</body></html>
