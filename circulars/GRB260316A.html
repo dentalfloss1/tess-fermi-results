@@ -1,0 +1,166 @@
+<html><head>
+<title>GRB 260316A circulars</title>
+</head><body bgcolor="#ffffff">
+<table border="1">
+  <tr>
+    <td><a href="../index.html">Fermi</a></td>
+    <td><a href="../nonfermi.html">Non-Fermi GRBs</a></td>
+    <td><a href="../ep.html">EP Events</a></td>
+    <td>Blind Transients</td>
+  </tr>
+</table>
+<h2>GRB 260316A</h2>
+<p>Aliases: EP260316a, GRB 260316A</p>
+<hr>
+<h3>GCN Circular 44027: The EP-WXT trigger 00199258890 (EP260316a): a correction to the trigger time and FXT automatic follow-up</h3>
+<p><b>Event ID:</b> EP260316a<br>
+<b>Submitter:</b> EP Team at NAOC/CAS &lt;ep_ta@bao.ac.cn&gt;<br>
+<b>Created:</b> 2026-03-16 14:23:30 UTC<br>
+<b>Source file:</b> 44027.json</p>
+<pre>S. Q. Jiang (NAO, CAS), B. Zhang, J. P. Feng (USTC), W. D. Zhang (NAO, CAS) on behalf of the Einstein Probe (EP) team:
+
+The trigger time reported in the notice for EP-WXT alert 00199258890 is incorrect. The correct trigger time is 2026-03-16T12:33:13.451 (UTC), rather than 2026-03-16T20:33:13.451 (UTC).
+
+The X-ray transient was detected by the Wide-field X-ray Telescope (WXT) on board the Einstein Probe (EP) mission, designated EP260316a. The transient triggered EP-WXT (ID: 00199258890) at 2026-03-16T12:33:13.451 (UTC). The WXT position of the source is R.A. = 226.983 deg, DEC = 27.466 deg (J2000) with an uncertainty of 3 arcmin in radius (90% C.L. statistical and systematic).
+
+A follow-up observation with the Follow-up X-ray Telescope (FXT) was performed automatically. Within the WXT error circle, an uncatalogued X-ray source was detected at R.A. = 226.9840 deg, DEC = 27.4447 deg (J2000) with an uncertainty of 20 arcsec in radius (90% C.L. statistical and systematic).
+
+Further information will be updated when the telemetry data is received.
+
+Launched on January 9, 2024, EP is a space X-ray observatory to monitor the soft X-ray sky with X-ray follow-up capability (Yuan et al. 2022, Handbook of X-ray and Gamma-ray Astrophysics).</pre>
+<hr>
+<h3>GCN Circular 44029: EP260316a / GRB 260316A : Fermi-GBM Sub-Threshold Detection</h3>
+<p><b>Event ID:</b> GRB 260316A<br>
+<b>Submitter:</b> mariaedvige.ravasio@ru.nl<br>
+<b>Created:</b> 2026-03-16 17:06:07 UTC<br>
+<b>Source file:</b> 44029.json</p>
+<pre>
+M. E. Ravasio (ICE-CSIC and Radboud Univ.), P.G. Jonker (Radboud Univ.) 
+and 
+E. Burns (LSU), R. Hamburg (USRA), and P. Veres (UAH)
+
+report on behalf of the Fermi-GBM Team:
+
+Fermi-GBM had full spatial and temporal coverage of the transient EP260316a detected by EP-WXT (EP Team GCN 44027). There was no Fermi-GBM onboard trigger around the corrected EP starting time at T0 = 2026-03-16T12:33:13 UTC.
+
+The GBM Targeted Search [1], the most sensitive, coherent search for GRB-like signals, was run in the time interval [-50;+500] s from T0, seeking signals between 64 ms and 32.768 s in duration. A faint transient signal was found most significantly at ~T0-3.6 s on a 4 s timescale, with a false alarm rate of 6.5e-05 Hz, although there is evidence of an earlier start of the emission at T0-20 s. The localisation is consistent with the EP one, with a spatial association probability of 98.8%. 
+Among the three spectral templates tested, the transient was best-fit with a“soft” spectral template  (Band function with Epeak = 70 keV, alpha = -1.9, beta = -3.7) for a GRB.
+
+[1] Goldstein et al. 2019 arXiv:1903.12597
+</pre>
+<hr>
+<h3>GCN Circular 44030: EP260316a: optical upper limit with Kinder observations</h3>
+<p><b>Event ID:</b> EP260316a<br>
+<b>Submitter:</b> Janet Chen at National Central University &lt;janetstars@gmail.com&gt;<br>
+<b>Created:</b> 2026-03-16 17:12:28 UTC<br>
+<b>Source file:</b> 44030.json</p>
+<pre>M.-H. Lee, A. Aryan, T.-W. Chen, H.-Y. Hsiao (all NCU), A. K. H. Kong (NTHU), J. H. Gillanders, S. J. Smartt (both Oxford), Y. J. Yang (NYUAD), Y.-H. Lee, A. Sankar.K, C.-H. Lai, Y.-C. Pan, C.-C. Ngeow, W.-J. Hou, C.-S. Lin, H.-C. Lin, J.-K. Guo (all NCU), S. Yang, Z. N. Wang, L. L. Fan, G. H. Sun (all HNAS), H.-W. Lin (UMich), H. F. Stevance, S. Srivastav, L. Rhodes (all Oxford), M. Nicholl, M. Fulton, T. Moore, K. W. Smith, C. Angus, A. Aamer (all QUB), A. Schultz, and M. Huber (both IfA, Hawaii) report:
+
+We observed the field of the EP260316a (Jiang et al., GCN 44027) using the 1m LOT at the Lulin observatory, as part of the Kinder collaboration (Chen et al. 2025, ApJ, 983, 86, doi:10.3847/1538-4357/adb428). The first LOT epoch of observations in g-band started at 14:11 UTC on 16th of March 2026 (MJD 61115.591), 1.63 hr after the EP-WXT detection.
+
+We utilized the astroalign (Beroiz et al. 2020, A&amp;C, 32, 100384) and astropy (Astropy Collaboration et al. 2022, ApJ, 935, 167) packages to align and stack the individual frames. We utilized the Python-based package AutoPhOT (Brennan &amp; Fraser, 2022, A&amp;A, 667, A62) to perform template subtraction with the DESI Legacy Survey (Dey et al. 2019, AJ 157, 168) DR10 image using the &#x27;SFFT&#x27; (Hu et al. 2022, ApJ, 936, 157) algorithm. Neither in the stacked nor in the difference image did we detect any signature of a new or uncatalogued source within the EP-FXT localization circle (20&quot;).
+
+Moreover, we further used AutoPhOT to perform PSF photometry. The details of the observations and the 3-sigma upper limit (in the AB system) are as follows:
+ 
+Telescope | Filter | MJD (start) | t-t0 (hr) | Exposure (s) | Magnitude| avg. Seeing  | Med. Airmass               
+LOT       | g      | 61115.591   | 1.63      | 300 * 12     | &gt;23.2    | 1&quot;.52        | 1.94     
+
+The presented magnitudes are calibrated using the field stars from the ATLAS-refcat2 catalog from MAST (Tonry J. L. et al. 2018, ApJ, 867, 105). The reported upper limit is not corrected for an expected galactic extinction of A_r = 0.12 mag in the direction of the transient (Schlafly &amp; Finkbeiner 2011). The methodology, details on the Lulin observatory telescopes, and a compilation of our optical follow-up campaign for FXTs discovered within the first year of operation of the Einstein-Probe mission are presented in Aryan et al. 2025, ApJS, 281, 20, doi:10.3847/1538-4365/adfc69.
+</pre>
+<hr>
+<h3>GCN Circular 44032: EP260316a: Xinglong optical upper limit</h3>
+<p><b>Event ID:</b> EP260316a<br>
+<b>Submitter:</b> Xinglong Observatory at National Astronomical Observatories (NAOC), Chinese Academy of Sciences (CAS) &lt;xinglong@nao.cas.cn&gt;<br>
+<b>Created:</b> 2026-03-16 17:46:14 UTC<br>
+<b>Source file:</b> 44032.json</p>
+<pre>Junbo-Zhang (NAOC),  Junjie-Jin (NAOC), Haiyang-Mu (NAOC), Feng-Xiao (NAOC), Yuguang-Sun (NAOC), Jie-Zheng (NAOC), Dong-Xu (NAOC), Zhou-Fan (NAOC), Hong-Wu (NAOC) report on behalf of a large collaboration:
+
+Following the detection of EP260316a by EP-WXT (Jiang et al., GCN 44027), we observed the field of EP260316a using the 2.16-m telescope at Xinglong Observatory, NAOC. We obtained 6x300s clear-band frames with a median time of 2026-03-16 16:18:40 (UT), 3.76 hr after the EP trigger. 
+
+No uncatalogued optical transient is detected in the stacked images within the 3 arcmin EP/WXT error circle (Jiang et al., GCN 44027), down to 3-sigma limiting magnitudes of g ~22.00 mag, calibrated with Pan-STARRS sources in the field. Also there is no apparent brightening for the catalogued sources within the error circle. 
+
+We also detected no optical transient candidate with a median time of 2026-03-16T16:37:50.536 (UT) with the 0.8-m Telescope in Xinglong, Hebei, China. The upper limit is ～19.9 mag in the g-band.</pre>
+<hr>
+<h3>GCN Circular 44034: EP260316a: refined analysis of the EP-WXT and EP-FXT observations</h3>
+<p><b>Event ID:</b> EP260316a<br>
+<b>Submitter:</b> EP Team at NAOC/CAS &lt;ep_ta@bao.ac.cn&gt;<br>
+<b>Created:</b> 2026-03-17 08:21:17 UTC<br>
+<b>Source file:</b> 44034.json</p>
+<pre>S. Q. Jiang (NAO, CAS), B. Zhang, J. P. Feng (USTC), W. D. Zhang (NAO, CAS) on behalf of the Einstein Probe (EP) team:
+
+The fast X-ray transient EP260316a was detected by the Wide-field X-ray Telescope (WXT) on board the Einstein Probe (EP) mission (Jiang et al., GCN 44027). The transient was detected immediately when WXT observation started at T0=2026-03-16 12:32:52. The WXT observation lasted for approximately 22 seconds, and was interrupted due to the autonomous follow-up observation. The WXT light curve exhibits a double-peaked structure, which is also observed in the Fermi/GBM data (Ravasio et al., GCN 44029). The average WXT 0.5-4 keV spectrum can be fitted with an absorbed power law with a hydrogen column density of 2.4 (-1.1/+1.4) × 10^22 cm^-2 and a photon index of 2.9 (-1.4/+1.6). The derived average unabsorbed 0.5-4 keV flux is 3.1 (-2.1/+9.1) × 10^(-8) erg/s/cm^2.
+
+The Follow-up X-ray Telescope (FXT) on board EP observed this source autonomously at 2026-03-16 12:35:40 (UTC, T0+168 s). The exposure time of this observation is 5.4 ks. On-ground analysis of the FXT data found an uncatalogued fading source at R.A., Dec. = 226.9819, 27.4455 (J2000) with an uncertainty of about 10 arcsec (radius, 90% C.L. statistical and systematic), which is consistent with the WXT position. The average 0.5-10 keV spectrum can be fitted with an absorbed power law with a hydrogen column density of 7.01 (-0.55/+0.57) × 10^21 cm^-2 and a photon index of 2.39 (-0.10/+0.11). The derived average unabsorbed 0.5-10 keV flux is 9.51 (-0.41/+0.47) × 10^(-12) erg/s/cm^2.
+
+A follow-up observation with the EP/FXT was planned, and further information will be updated when the telemetry data are received.
+
+Launched on January 9, 2024, EP is a space X-ray observatory to monitor the soft X-ray sky with X-ray follow-up capability (Yuan et al. 2022, Handbook of X-ray and Gamma-ray Astrophysics).</pre>
+<hr>
+<h3>GCN Circular 44037: EP260316a: COLIBRÍ faint optical counterpart candidate</h3>
+<p><b>Event ID:</b> EP260316a<br>
+<b>Submitter:</b> F. Fortin at IRAP &lt;ffortin.sci.edu@gmail.com&gt;<br>
+<b>Created:</b> 2026-03-17 13:06:02 UTC<br>
+<b>Source file:</b> 44037.json</p>
+<pre>Francis Fortin (IRAP), Fredd Sánchez Álvarez (UNAM), Jean-Luc Atteia (IRAP), Jean-Grégoire Ducoin (CPPM), Stéphane Basa (UAR Pytheas), William H. Lee (UNAM), Alan M. Watson (UNAM), Edilberto Aguilar-Ruiz (UNAM), Camila Angulo (UNAM), Dalya Akl (NYUAD), Sarah Antier (IJCLAB), Rosa L. Becerra (UNAM), Nathaniel R. Butler (ASU), Damien Dornic (CPPM), Leonardo García García (UNAM), Ramandeep Gill (UNAM), Noémie Globus (UNAM), Marion Guelfand (CPPM), Asuka Kuwata (UNAM), Missimiliano Lincetto (CPPM), Nikos Mandarakas (LAM), Diego López-Cámara (UNAM), Francesco Magnani (CPPM), Enrique Moreno Méndez (UNAM), Margarita Pereyra (UNAM), Ny Avo Rakotondrainibe (LAM), Benjamin Schneider (LAM) and Antonio de Ugarte Postigo (LAM) report:
+
+We imaged the field of the EP260316a (Jiang et al., GCN Circ. 44027, GCN Circ. 44034), also detected by Fermi (Ravasio et al., GCN Circ. 44029)  using the DDRAGO two-channel wide-field imager on the COLIBRÍ telescope. We observed from 2026-03-17 07:56:51 to 10:00:54 UTC (from 19.4 to 21.5 hours after the trigger) and obtained 94 minutes of simultaneous exposure in the r and z filters.
+
+The data were reduced and coadded with the COLIBRÍ ASU pipeline. The photometry was calibrated using nearby stars from the PanSTARRS DR1 catalog, is in the AB system, and is not corrected for Galactic extinction.
+
+We detect a faint (SNR = 5.7) uncatalogued source located at the edge of the EP/FXT 10 arcsec error circle (Jiang et al., GCN Circ. 44034) at: 
+
+RA(J2000) = 15:07:55.62 = 226.98176 degrees
+Dec(J2000) = +27:26:53.9 = +27.44830 degrees
+
+with an uncertainty of 0.5 arcsec.
+
+The preliminary magnitude derived for that source is:
+
+r = 24.40 +/- 0.19
+z &gt; 23.38 (3-sigma)
+
+We note that our images are deeper than the PS1 and LS catalogues, hence we cannot fully conclude whether or not this source is a transient. Further observations are planned. Followup of this source with other facilities is also encouraged.
+
+We thank the staff of the Observatorio Astronómico Nacional at Sierra de San Pedro Mártir, as well as the technical and engineering teams at CEA, CPPM, IRAP, LAM, OHP, OSU Pytheas, and UNAM.
+
+COLIBRÍ is an astronomical observatory developed and operated jointly by France (AMU, CNES and CNRS) and Mexico (UNAM and SECIHTI). It is located at the Observatorio Astronómico Nacional on the Sierra de San Pedro Mártir, Baja California, Mexico.
+</pre>
+<hr>
+<h3>GCN Circular 44038: EP260316a / GRB 260316A: SVOM/VT optical upper limits</h3>
+<p><b>Event ID:</b> EP260316a<br>
+<b>Submitter:</b> Huali Li at at NAOC, SVOM &lt;lhl@nao.cas.cn&gt;<br>
+<b>Created:</b> 2026-03-17 15:21:28 UTC<br>
+<b>Source file:</b> 44038.json</p>
+<pre>H. L. Li, L. P. Xin, Y. N. Ma, C. Wu, Z. H. Yao, Y. L. Qiu, X. H. Han, J. Wang, Y. Xu, P. P. Zhang, W. J. Xie, Y. J. Xiao, H. B. Cai, L. Lan, J. R. Xu, J. S. Deng, J. Y. Wei (NAOC), J. T. Palmerio (CEA/Irfu) report on behalf of the SVOM/VT team.
+
+SVOM/VT performed ToO observation of the field of EP260316a detected by Einstein Probe (Jiang et al., GCN 44027, GCN 44034), and GRB 260316A with the sub-threshold detection by Fermi (Ravasio et al., GCN 44029). The observation started at 2026-03-16T22:31:53 UTC, i.e., about 9.98 hours post trigger in the VT_B (400-650 nm) and VT_R (650-1000 nm) channels simultaneously.
+
+No uncatalogued optical source was detected in our stacked images. The 3-sigma upper limits are:
+
+Mid_time         Band        Exposure Time     Magnitude (AB) 
+10.35 hour       VT_R           37*70 sec       &gt; 23.2  mag
+10.35 hour       VT_B           39*70 sec       &gt; 23.3  mag
+
+The faint optical candidate reported by COLIBRÍ (Fortin et al., GCN 44037) was not detected in our stacked images.
+
+The Space Variable Objects Monitor (SVOM) is a China-France joint mission led by the Chinese National Space Administration (CNSA, China), National Center for Space Studies (CNES, France) and the Chinese Academy of Sciences (CAS, China), which is dedicated to observing gamma-ray bursts and other transient phenomena in the energetic universe. VT was jointly developed by Xi&#x27;an Institute of Optics and Precision Mechanics (XIOPM), CAS and National astronomical observatories (NAOC), CAS.</pre>
+<hr>
+<h3>GCN Circular 44046: GRB 260316A / EP260316a: COLIBRÍ optical followup of counterpart candidate</h3>
+<p><b>Event ID:</b> GRB 260316A<br>
+<b>Submitter:</b> F. Fortin at IRAP &lt;ffortin.sci.edu@gmail.com&gt;<br>
+<b>Created:</b> 2026-03-18 12:06:23 UTC<br>
+<b>Source file:</b> 44046.json</p>
+<pre>Francis Fortin (IRAP), Diego López-Cámara (UNAM), Jean-Grégoire Ducoin (CPPM), Antonio de Ugarte Postigo (LAM), Stéphane Basa (UAR Pytheas), William H. Lee (UNAM), Alan M. Watson (UNAM), Edilberto Aguilar-Ruiz (UNAM), Jean-Luc Atteia (IRAP), Camila Angulo (UNAM), Dalya Akl (NYUAD), Sarah Antier (IJCLAB), Rosa L. Becerra (UNAM), Nathaniel R. Butler (ASU), Damien Dornic (CPPM), Leonardo García García (UNAM), Ramandeep Gill (UNAM), Noémie Globus (UNAM), Marion Guelfand (CPPM), Asuka Kuwata (UNAM), Missimiliano Lincetto (CPPM), Nikos Mandarakas (LAM), Francesco Magnani (CPPM), Enrique Moreno Méndez (UNAM), Margarita Pereyra (UNAM), Ny Avo Rakotondrainibe (LAM), Fredd Sánchez Álvarez (UNAM) and Benjamin Schneider (LAM) report:
+
+We imaged the field of the GRB 260316A / EP260316a (Jiang et al., GCN Circ. 44027, GCN Circ. 44034) using the DDRAGO two-channel wide-field imager on the COLIBRÍ telescope. We observed from 2026-03-18 07:20:28 to 09:50:38 UTC (from 42.8 to 45.3 hours after the trigger) and obtained 111 minutes of simultaneous exposure in the r and z filters.
+
+The data were reduced and coadded with the COLIBRÍ pipeline and analysed with STDWeb/STDPipe (Karpov 2025) and the COLIBRÍ ASU pipeline. The photometry was calibrated using nearby stars from the PanSTARRS DR1 catalog, is in the AB system, and is not corrected for Galactic extinction.
+
+We still detect the optical counterpart candidate that we previously reported in Fortin et al., GCN Circ. 44037. Template subtraction from 2026-03-17 to 2026-03-18 shows no significant residuals between the two epochs, and therefore does not allow us to conclude on the potential variability of this source.
+
+
+We thank the staff of the Observatorio Astronómico Nacional at Sierra de San Pedro Mártir, as well as the technical and engineering teams at CEA, CPPM, IRAP, LAM, OHP, OSU Pytheas, and UNAM.
+
+COLIBRÍ is an astronomical observatory developed and operated jointly by France (AMU, CNES and CNRS) and Mexico (UNAM and SECIHTI). It is located at the Observatorio Astronómico Nacional on the Sierra de San Pedro Mártir, Baja California, Mexico.
+</pre>
+</body></html>
