@@ -1,0 +1,12 @@
+{
+  "files": [
+    "GRB210222Aflagplots.html",
+    "GRB210222Amultipleplots.html",
+    "GRB210222Aresultssummary.html",
+    "GRB210222Asingleplots.html",
+    "index.html"
+  ],
+  "sector": 35,
+  "source": "plotpages/s0035",
+  "version": 1
+}

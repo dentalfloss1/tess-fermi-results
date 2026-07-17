@@ -1,0 +1,18 @@
+{
+  "files": [
+    "GRB220623Aflagplots.html",
+    "GRB220623Amultipleplots.html",
+    "GRB220623Aresultssummary.html",
+    "GRB220623Asingleplots.html",
+    "GRB220708Aflagplots.html",
+    "GRB220708Amultipleplots.html",
+    "GRB220708Aresultssummary.html",
+    "GRB220708Asingleplots.html",
+    "forced_summary_single_GRB_220623A_spoc_cand000_cam4_ccd4_cam4_ccd4_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_single_GRB_220623A_spoc_cand000_cam4_ccd4_cam4_ccd4.png"
+  ],
+  "sector": 53,
+  "source": "plotpages/s0053",
+  "version": 1
+}

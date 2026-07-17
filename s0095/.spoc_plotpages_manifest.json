@@ -1,0 +1,30 @@
+{
+  "files": [
+    "EP250806aflagplots.html",
+    "EP250806amultipleplots.html",
+    "EP250806aresultssummary.html",
+    "EP250806asingleplots.html",
+    "GRB250727Aflagplots.html",
+    "GRB250727Amultipleplots.html",
+    "GRB250727Aresultssummary.html",
+    "GRB250727Asingleplots.html",
+    "GRB250805Aflagplots.html",
+    "GRB250805Amultipleplots.html",
+    "GRB250805Aresultssummary.html",
+    "GRB250805Asingleplots.html",
+    "GRB250807Bflagplots.html",
+    "GRB250807Bmultipleplots.html",
+    "GRB250807Bresultssummary.html",
+    "GRB250807Bsingleplots.html",
+    "GRB250807flagplots.html",
+    "GRB250807multipleplots.html",
+    "GRB250807resultssummary.html",
+    "GRB250807singleplots.html",
+    "forced_summary_flag_GRB_250807_spoc_cand000_cam3_ccd1_cam3_ccd1_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB_250807_spoc_cand000_cam3_ccd1_cam3_ccd1.png"
+  ],
+  "sector": 95,
+  "source": "plotpages/s0095",
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "files": [
+    "GRB251119Aflagplots.html",
+    "GRB251119Amultipleplots.html",
+    "GRB251119Aresultssummary.html",
+    "GRB251119Asingleplots.html",
+    "forced_summary_flag_GRB_251119A_spoc_cand000_cam1_ccd3_cam1_ccd3_photometry.parquet",
+    "forced_summary_flag_GRB_251119A_spoc_cand001_cam1_ccd3_cam1_ccd3_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB_251119A_spoc_cand000_cam1_ccd3_cam1_ccd3.png",
+    "plot_assets/forced_summary_flag_GRB_251119A_spoc_cand001_cam1_ccd3_cam1_ccd3.png"
+  ],
+  "sector": 98,
+  "source": "plotpages/s0098",
+  "version": 1
+}

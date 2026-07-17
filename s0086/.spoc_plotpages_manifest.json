@@ -1,0 +1,16 @@
+{
+  "files": [
+    "EP241201aflagplots.html",
+    "EP241201amultipleplots.html",
+    "EP241201aresultssummary.html",
+    "EP241201asingleplots.html",
+    "GRB241206Bflagplots.html",
+    "GRB241206Bmultipleplots.html",
+    "GRB241206Bresultssummary.html",
+    "GRB241206Bsingleplots.html",
+    "index.html"
+  ],
+  "sector": 86,
+  "source": "plotpages/s0086",
+  "version": 1
+}

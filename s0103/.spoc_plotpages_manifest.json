@@ -1,0 +1,14 @@
+{
+  "files": [
+    "EP260502aflagplots.html",
+    "EP260502amultipleplots.html",
+    "EP260502aresultssummary.html",
+    "EP260502asingleplots.html",
+    "forced_summary_flag_EP260502a_spoc_cand000_cam2_ccd1_cam2_ccd1_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_EP260502a_spoc_cand000_cam2_ccd1_cam2_ccd1.png"
+  ],
+  "sector": 103,
+  "source": "plotpages/s0103",
+  "version": 1
+}
