@@ -1,0 +1,109 @@
+:root {
+  color-scheme: light;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #202124;
+  background: #f3f1ea;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  width: calc(100% - 2rem);
+  max-width: 90rem;
+  margin: 1.5rem auto;
+  padding: 1.25rem 1.5rem 2rem;
+  background: #fff;
+  border: 1px solid #bbb8ac;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+}
+
+a { color: #0000cc; }
+a:visited { color: #551a8b; }
+a:hover { background: #fff4a8; }
+
+table {
+  border-collapse: collapse;
+  margin: .75rem 0 1.5rem;
+  font-size: .88rem;
+}
+
+th, td {
+  padding: .35rem .5rem;
+  border-color: #aaa;
+  text-align: left;
+  vertical-align: top;
+}
+
+th { background: #e7e7df; }
+tbody tr:nth-child(even) { background: #f7f7f3; }
+
+table.dataframe {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure { margin: 1.5rem 0 2.5rem; }
+figcaption { overflow-wrap: anywhere; }
+
+pre {
+  max-width: 100%;
+  padding: .75rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: #f7f7f3;
+  border: 1px solid #ddd;
+}
+
+.candidate-links {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  white-space: nowrap;
+}
+
+.candidate-summary,
+.candidate-badge {
+  display: inline-block;
+  min-width: 2.25rem;
+  padding: .08rem .35rem;
+  border: 1px solid #999;
+  border-radius: 2px;
+  color: #111 !important;
+  background: #eee;
+  text-align: center;
+  text-decoration: none;
+  font: 700 .78rem/1.35 Verdana, Geneva, sans-serif;
+}
+
+.candidate-summary { background: #dce9f7; }
+.candidate-multiple.has-events { background: #b8e0b8; border-color: #4d8b4d; }
+.candidate-single.has-events { background: #ffe29a; border-color: #ad7b00; }
+.candidate-flag.has-events { background: #f5b5ae; border-color: #a83c32; }
+.candidate-badge.no-events { color: #666 !important; background: #eee; }
+
+@media (max-width: 700px) {
+  :root { font-size: 14px; }
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    border: 0;
+    box-shadow: none;
+  }
+}
