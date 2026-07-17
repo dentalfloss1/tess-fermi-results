@@ -1,0 +1,20 @@
+{
+  "files": [
+    "EP240918bflagplots.html",
+    "EP240918bmultipleplots.html",
+    "EP240918bresultssummary.html",
+    "EP240918bsingleplots.html",
+    "GRB240911Aflagplots.html",
+    "GRB240911Amultipleplots.html",
+    "GRB240911Aresultssummary.html",
+    "GRB240911Asingleplots.html",
+    "forced_summary_flag_GRB_240911A_spoc_cand001_cam1_ccd1_cam1_ccd1_photometry.parquet",
+    "forced_summary_flag_single_GRB_240911A_spoc_cand000_cam1_ccd1_cam1_ccd1_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB_240911A_spoc_cand001_cam1_ccd1_cam1_ccd1.png",
+    "plot_assets/forced_summary_flag_single_GRB_240911A_spoc_cand000_cam1_ccd1_cam1_ccd1.png"
+  ],
+  "sector": 83,
+  "source": "plotpages/s0083",
+  "version": 1
+}

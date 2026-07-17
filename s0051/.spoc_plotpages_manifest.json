@@ -1,0 +1,16 @@
+{
+  "files": [
+    "GRB220514Bflagplots.html",
+    "GRB220514Bmultipleplots.html",
+    "GRB220514Bresultssummary.html",
+    "GRB220514Bsingleplots.html",
+    "forced_summary_GRB_220514B_spoc_cand000_cam4_ccd1_cam4_ccd1_photometry.parquet",
+    "forced_summary_flag_GRB_220514B_spoc_cand001_cam4_ccd1_cam4_ccd1_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_GRB_220514B_spoc_cand000_cam4_ccd1_cam4_ccd1.png",
+    "plot_assets/forced_summary_flag_GRB_220514B_spoc_cand001_cam4_ccd1_cam4_ccd1.png"
+  ],
+  "sector": 51,
+  "source": "plotpages/s0051",
+  "version": 1
+}

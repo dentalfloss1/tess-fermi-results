@@ -1,0 +1,18 @@
+{
+  "files": [
+    "GRB250430Aflagplots.html",
+    "GRB250430Amultipleplots.html",
+    "GRB250430Aresultssummary.html",
+    "GRB250430Asingleplots.html",
+    "GRB250502Aflagplots.html",
+    "GRB250502Amultipleplots.html",
+    "GRB250502Aresultssummary.html",
+    "GRB250502Asingleplots.html",
+    "forced_summary_GRB_250502A_spoc_cand000_cam2_ccd4_cam2_ccd4_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_GRB_250502A_spoc_cand000_cam2_ccd4_cam2_ccd4.png"
+  ],
+  "sector": 91,
+  "source": "plotpages/s0091",
+  "version": 1
+}

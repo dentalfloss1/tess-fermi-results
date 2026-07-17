@@ -1,0 +1,12 @@
+{
+  "files": [
+    "EP260224aflagplots.html",
+    "EP260224amultipleplots.html",
+    "EP260224aresultssummary.html",
+    "EP260224asingleplots.html",
+    "index.html"
+  ],
+  "sector": 100,
+  "source": "plotpages/s0100",
+  "version": 1
+}

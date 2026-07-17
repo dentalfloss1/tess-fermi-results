@@ -1,0 +1,14 @@
+{
+  "files": [
+    "GRB240703Aflagplots.html",
+    "GRB240703Amultipleplots.html",
+    "GRB240703Aresultssummary.html",
+    "GRB240703Asingleplots.html",
+    "forced_summary_GRB_240703A_spoc_cand000_cam1_ccd3_cam1_ccd3_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_GRB_240703A_spoc_cand000_cam1_ccd3_cam1_ccd3.png"
+  ],
+  "sector": 80,
+  "source": "plotpages/s0080",
+  "version": 1
+}
