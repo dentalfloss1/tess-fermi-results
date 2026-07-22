@@ -4,7 +4,13 @@
     "EP260628amultipleplots.html",
     "EP260628aresultssummary.html",
     "EP260628asingleplots.html",
-    "index.html"
+    "GRB260705Aflagplots.html",
+    "GRB260705Amultipleplots.html",
+    "GRB260705Aresultssummary.html",
+    "GRB260705Asingleplots.html",
+    "forced_summary_flag_GRB_260705A_spoc_cand000_cam4_ccd3_cam4_ccd3_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB_260705A_spoc_cand000_cam4_ccd3_cam4_ccd3.png"
   ],
   "sector": 105,
   "source": "plotpages/s0105",
