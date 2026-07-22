@@ -1,0 +1,18 @@
+{
+  "Candidate": "lc_GRB260701A_cand46925",
+  "Event": "GRB260701A",
+  "Detector": "Sector 105 Cam 1 CCD 3",
+  "Status": "FLAG",
+  "Detection class": "none",
+  "Detection count": 0,
+  "RMS": 11.277363599741298,
+  "Unflagged negative flux points": 5061,
+  "Trigger time": "2026-07-01 02:14:24.147",
+  "RA (deg)": 308.77240236320733,
+  "Dec (deg)": -41.98722851785533,
+  "Column": 1670.3414692053707,
+  "Row": 1895.401626627202,
+  "Galactic longitude (deg)": 359.15008037145105,
+  "Galactic latitude (deg)": -36.45032957174854,
+  "Data file": "./cam1_ccd3//lcGRB/lc_GRB260701A_cand46925"
+}
