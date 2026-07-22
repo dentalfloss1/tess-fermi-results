@@ -1,10 +1,16 @@
 {
   "files": [
+    "GRB260121Aflagplots.html",
+    "GRB260121Amultipleplots.html",
+    "GRB260121Aresultssummary.html",
+    "GRB260121Asingleplots.html",
     "GRB260128Aflagplots.html",
     "GRB260128Amultipleplots.html",
     "GRB260128Aresultssummary.html",
     "GRB260128Asingleplots.html",
-    "index.html"
+    "forced_summary_flag_GRB_260121A_spoc_cand000_cam4_ccd4_cam4_ccd4_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB_260121A_spoc_cand000_cam4_ccd4_cam4_ccd4.png"
   ],
   "sector": 99,
   "source": "plotpages/s0099",
