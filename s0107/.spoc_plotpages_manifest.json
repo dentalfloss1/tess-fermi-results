@@ -1,0 +1,14 @@
+{
+  "files": [
+    "GRB260818Aflagplots.html",
+    "GRB260818Amultipleplots.html",
+    "GRB260818Aresultssummary.html",
+    "GRB260818Asingleplots.html",
+    "forced_summary_flag_GRB_260818A_spoc_cand000_cam1_ccd4_cam1_ccd4_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB_260818A_spoc_cand000_cam1_ccd4_cam1_ccd4.png"
+  ],
+  "sector": 107,
+  "source": "plotpages/s0107",
+  "version": 1
+}
