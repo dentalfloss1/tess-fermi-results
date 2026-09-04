@@ -1,0 +1,28 @@
+{
+  "files": [
+    "GRB260718909flagplots.html",
+    "GRB260718909multipleplots.html",
+    "GRB260718909resultssummary.html",
+    "GRB260718909singleplots.html",
+    "GRB260722Aflagplots.html",
+    "GRB260722Amultipleplots.html",
+    "GRB260722Aresultssummary.html",
+    "GRB260722Asingleplots.html",
+    "GRB260723Aflagplots.html",
+    "GRB260723Amultipleplots.html",
+    "GRB260723Aresultssummary.html",
+    "GRB260723Asingleplots.html",
+    "GRB260730Aflagplots.html",
+    "GRB260730Amultipleplots.html",
+    "GRB260730Aresultssummary.html",
+    "GRB260730Asingleplots.html",
+    "GRB260802Bflagplots.html",
+    "GRB260802Bmultipleplots.html",
+    "GRB260802Bresultssummary.html",
+    "GRB260802Bsingleplots.html",
+    "index.html"
+  ],
+  "sector": 106,
+  "source": "plotpages/s0106",
+  "version": 1
+}
