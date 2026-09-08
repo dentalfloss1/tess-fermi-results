@@ -1,0 +1,18 @@
+{
+  "Candidate": "lc_GRB260624A_cand15629",
+  "Event": "GRB260624A",
+  "Detector": "Sector 105 Cam 4 CCD 1",
+  "Status": "FLAG",
+  "Detection class": "none",
+  "Detection count": 0,
+  "RMS": 6.617397780018672,
+  "Unflagged negative flux points": 3860,
+  "Trigger time": "2026-06-24 15:51:58.978",
+  "RA (deg)": 29.339951147461285,
+  "Dec (deg)": -33.255820252526604,
+  "Column": 731.5910634735238,
+  "Row": 157.34205853812716,
+  "Galactic longitude (deg)": 240.22523530571306,
+  "Galactic latitude (deg)": -74.51725841540939,
+  "Data file": "./cam4_ccd1//lcGRB/lc_GRB260624A_cand15629"
+}
