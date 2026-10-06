@@ -205,4 +205,97 @@ The fading (corresponding to a decay slope of 1.22 +/- 0.14) allows us to conclu
 We acknowledge excellent support from the ESO staff in Paranal, in particular Carlos La Fuente, Francesca Lucertini, Fuyan Bian, and Robert De Rosa.
 
 </pre>
+<hr>
+<h3>GCN Circular 45792: IPN triangulation of GRB 260919A / EP260920a</h3>
+<p><b>Event ID:</b> GRB 260919A<br>
+<b>Submitter:</b> Dmitry Svinkin at Ioffe Institute &lt;svinkin@mail.ioffe.ru&gt;<br>
+<b>Created:</b> 2026-10-01 13:14:13 UTC<br>
+<b>Source file:</b> 45792.json</p>
+<pre>D. Svinkin, D. Frederiks, A. Lysenko, V. Panteleeva, A. Ridnaia,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, C. Wilson-Hodge,
+and E. Burns on behalf of the Fermi-GBM team,
+
+report:
+
+The long-duration GRB 260919A was detected by Konus-Wind and
+Fermi (GBM trigger 811554497) at about 85692 s UT (23:48:12).
+
+We have triangulated it to the 3 sigma IPN localization region
+whose area is 6556 sq. deg, and its maximum
+dimension is 147 deg (the minimum one is ~66 deg).
+
+This localization may be improved.
+
+The fast X-ray transient EP260920a (Ni et al., GCN 45649) which was detected ~800 s after GRB 260919A, is inside the IPN localization region. The positional and temporal proximity of GRB 260919A with EP260920a may suggest that both events have a common origin.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB260919_T85725/IPN/
+The HEALPix triangulation map is the multi-order HEALPix in units of
+probability density.
+
+The Konus-Wind time history and spectrum will be given
+in a forthcoming GCN Circular.
+</pre>
+<hr>
+<h3>GCN Circular 45794: Fermi GBM Detection of GRB 260919A / EP260920a</h3>
+<p><b>Event ID:</b> GRB 260919A<br>
+<b>Submitter:</b> rhamburg@usra.edu<br>
+<b>Created:</b> 2026-10-01 21:27:44 UTC<br>
+<b>Source file:</b> 45794.json</p>
+<pre>R. Hamburg (USRA), A. Trigg (NASA/MSFC), O. Mukherjee (USRA), and E. Burns (LSU) report on behalf of the Fermi-GBM Team:
+
+The Einstein Probe WXT detected the fast X-ray transient EP260920a on 2026-09-20T00:06:04 UTC (GCN 45649).
+
+The Fermi Gamma-ray Burst Monitor (GBM) Targeted Search [1], the most sensitive coherent search for GRB-like signals in GBM, identified GRB 260919A, a bright and spatially-consistent transient with a duration of roughly 250 s. This GRB was detected most significantly at 2026-09-19T23:52:04.224 UTC, and was found on the 8.192 s timescale using a normal GRB spectrum (Band function with Epeak = 230 keV, alpha = -1.0, beta = -2.3). The Targeted Search significance of GRB 260919A is well within the range of on-board triggers, but GRB 260919A occurred within the 10 min post-trigger interval after GBM trigger 260919992 / 811554497 during which further GBM triggering is disabled. 
+
+GBM trigger 260919992 / 811554497 was detected at 2026-09-19T23:48:12.80, approximately 800 s before the EP trigger time, and was initially classified as a TGF by the flight software. It was subsequently classified as uncertain due to extreme localization uncertainties. The connection between GBM trigger 260919992 / 811554497 and GRB 260919A is currently uncertain.
+
+Combining the Targeted Search localization with the IPN localization (GCN 45792), we find the spatial association probability between GRB 260919A and EP260920a is 99% (0.9887). We note the large temporal offset of approximately 600 s. However, the spatial coincidence suggests a common origin between GRB 260919A and EP260920a.
+
+[1] Goldstein et al. 2019 arXiv:1903.12597
+</pre>
+<hr>
+<h3>GCN Circular 45806: Konus-Wind detection of GRB 260919A / EP 260920a</h3>
+<p><b>Event ID:</b> GRB 260919A<br>
+<b>Submitter:</b> Valentina Panteleeva at Ioffe Institute &lt;panteleevav228@gmail.com&gt;<br>
+<b>Created:</b> 2026-10-03 16:26:27 UTC<br>
+<b>Source file:</b> 45806.json</p>
+<pre>V. Panteleeva, D. Frederiks, A. Lysenko, A. Ridnaia, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 260919A / EP 260920a
+(EP-WXT detection: Ni et al., GCN 45649;
+IPN triangulation: Svinkin et al., GCN 45792)
+was detected by Konus-Wind (KW) in the waiting mode
+at about T0=85725 s UT (23:48:45).
+
+A Bayesian block analysis of the KW  waiting mode data
+in the 20-300 keV band reveals a &gt;20 sigma count rate
+increase in the interval from T0+44 s to T0+209 s.
+The total burst duration is 165 s.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB260919_T85725/
+
+The total burst fluence is 1.32(-0.20,+0.38)x10^-5 erg/cm^2,
+and the 2.944 s peak energy flux, measured from T0+144.341 s,
+is 2.05(-0.36,+0.64)x10^-7 erg/cm^2/s.
+(both in the 10 keV - 1 MeV energy range).
+
+The time-integrated spectrum of the burst,
+measured from T0+44.245 s to T0+209.109 s,
+can be described by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha &gt; -1.3 and Ep = 109(-14,+46) keV.
+
+The spectrum near the peak count rate, 
+measured from T0+132.565 s to T0+147.285 s,
+can be described by a CPL model with
+alpha &gt; -0.3 and Ep = 105(-4,+53) keV.
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.</pre>
 </body></html>
