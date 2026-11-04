@@ -1,0 +1,33 @@
+{
+  "files": [
+    "GRB240908Aflagplots.html",
+    "GRB240908Amultipleplots.html",
+    "GRB240908Aresultssummary.html",
+    "GRB240908Asingleplots.html",
+    "GRB240910Bflagplots.html",
+    "GRB240910Bmultipleplots.html",
+    "GRB240910Bresultssummary.html",
+    "GRB240910Bsingleplots.html",
+    "GRB240913Cflagplots.html",
+    "GRB240913Cmultipleplots.html",
+    "GRB240913Cresultssummary.html",
+    "GRB240913Csingleplots.html",
+    "GRB240916Bflagplots.html",
+    "GRB240916Bmultipleplots.html",
+    "GRB240916Bresultssummary.html",
+    "GRB240916Bsingleplots.html",
+    "GRB240929Aflagplots.html",
+    "GRB240929Amultipleplots.html",
+    "GRB240929Aresultssummary.html",
+    "GRB240929Asingleplots.html",
+    "GRB240930Bflagplots.html",
+    "GRB240930Bmultipleplots.html",
+    "GRB240930Bresultssummary.html",
+    "GRB240930Bsingleplots.html",
+    "index.html",
+    "plot_assets/forced_summary_flag_GRB240930B_cam2_ccd2_position_cam2_ccd2.png"
+  ],
+  "sector": 83,
+  "source": "plotpages/s0083",
+  "version": 1
+}
