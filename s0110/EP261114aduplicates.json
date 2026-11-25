@@ -1,7 +1,62 @@
 {
   "event": "EP261114a",
   "radius_arcsec": 5.0,
-  "input_extractions": 0,
-  "unique_sources": 0,
-  "groups": []
+  "input_extractions": 1,
+  "unique_sources": 1,
+  "groups": [
+    {
+      "representative": "EP261114a_spoc_position_cam1_ccd4",
+      "members": [
+        {
+          "metadata": {
+            "cam": 1,
+            "catalog": "ep",
+            "ccd": 4,
+            "data_source": "TICA_FFI",
+            "dec": -3.50425,
+            "detection_class": "none",
+            "detection_count": 0,
+            "event_name": "EP261114a",
+            "flags": [
+              "running_rms_noise",
+              "no_post_detection"
+            ],
+            "gaussian_fit": {
+              "amplitude": 110.79947845247494,
+              "center_offset": 0.17101803232902774,
+              "ok": true,
+              "sigma": 0.6638547942179592,
+              "snr": 82.92851433519074,
+              "x0": 19.842468783260042,
+              "y0": 20.066566381410745
+            },
+            "peak_cadence_end_minutes": null,
+            "peak_cadence_start_minutes": null,
+            "peak_dt_minutes": null,
+            "peak_flux_err_rate": null,
+            "peak_flux_rate": null,
+            "peak_snr": null,
+            "peak_tess_mag": null,
+            "peak_trigger_overlap": false,
+            "position_method": "Gaussian centroid of strongest post-trigger difference image",
+            "ra": 68.3436,
+            "refined_dec": -3.503993972358954,
+            "refined_ra": 68.34347477998466,
+            "refined_x": 21.84417344722962,
+            "refined_y": 22.06723449394857,
+            "refinement_image_midtjd": 4359.319958739448,
+            "refinement_offset_arcsec": 1.0489501133337573,
+            "running_rms_high": false,
+            "running_rms_max": null,
+            "search_snr": null,
+            "sector": 110,
+            "source": "EP261114a_spoc_position_cam1_ccd4",
+            "status": "FLAG"
+          },
+          "category": "flag",
+          "plot": "forced_summary_flag_EP261114a_spoc_position_cam1_ccd4_cam1_ccd4.png"
+        }
+      ]
+    }
+  ]
 }

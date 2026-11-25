@@ -1,7 +1,62 @@
 {
   "event": "EP260927a",
   "radius_arcsec": 5.0,
-  "input_extractions": 0,
-  "unique_sources": 0,
-  "groups": []
+  "input_extractions": 1,
+  "unique_sources": 1,
+  "groups": [
+    {
+      "representative": "EP260927a_spoc_position_cam1_ccd1",
+      "members": [
+        {
+          "metadata": {
+            "cam": 1,
+            "catalog": "ep",
+            "ccd": 1,
+            "data_source": "SPOC",
+            "dec": -27.1855,
+            "detection_class": "none",
+            "detection_count": 0,
+            "event_name": "EP260927a",
+            "flags": [
+              "running_rms_noise",
+              "no_post_detection"
+            ],
+            "gaussian_fit": {
+              "amplitude": 10.010556941327556,
+              "center_offset": 2.9560255196223273,
+              "ok": true,
+              "sigma": 0.6581176575171374,
+              "snr": 9.052801086532344,
+              "x0": 17.35679683605428,
+              "y0": 18.676533375273188
+            },
+            "peak_cadence_end_minutes": 6.496893938019639,
+            "peak_cadence_start_minutes": 3.1635606034251396,
+            "peak_dt_minutes": 4.830227270722389,
+            "peak_flux_err_rate": 5.629087612194079,
+            "peak_flux_rate": 14.70337380082637,
+            "peak_snr": 2.612034989289385,
+            "peak_tess_mag": 17.521457504121773,
+            "peak_trigger_overlap": false,
+            "position_method": "Gaussian centroid of strongest post-trigger difference image",
+            "ra": 31.8105,
+            "refined_dec": -27.2004194703331,
+            "refined_ra": 31.81008916035414,
+            "refined_x": 20.35679683605428,
+            "refined_y": 21.676533375273188,
+            "refinement_image_midtjd": 4314.350054168142,
+            "refinement_offset_arcsec": 53.72620201988237,
+            "running_rms_high": false,
+            "running_rms_max": 1.3409093625090935,
+            "search_snr": null,
+            "sector": 108,
+            "source": "EP260927a_spoc_position_cam1_ccd1",
+            "status": "FLAG"
+          },
+          "category": "flag",
+          "plot": "forced_summary_flag_EP260927a_spoc_position_cam1_ccd1_cam1_ccd1.png"
+        }
+      ]
+    }
+  ]
 }
