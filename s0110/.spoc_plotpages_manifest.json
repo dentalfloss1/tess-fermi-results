@@ -1,0 +1,15 @@
+{
+  "files": [
+    "EP261114aduplicates.json",
+    "EP261114aflagplots.html",
+    "EP261114amultipleplots.html",
+    "EP261114aresultssummary.html",
+    "EP261114asingleplots.html",
+    "forced_summary_flag_EP261114a_spoc_position_cam1_ccd4_cam1_ccd4_photometry.parquet",
+    "index.html",
+    "plot_assets/forced_summary_flag_EP261114a_spoc_position_cam1_ccd4_cam1_ccd4.png"
+  ],
+  "sector": 110,
+  "source": "plotpages/s0110",
+  "version": 1
+}

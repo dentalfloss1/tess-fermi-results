@@ -1,0 +1,103 @@
+{
+  "event": "EP261015a",
+  "radius_arcsec": 5.0,
+  "input_extractions": 2,
+  "unique_sources": 2,
+  "groups": [
+    {
+      "representative": "EP261015a_spoc_cand000_cam1_ccd4",
+      "members": [
+        {
+          "metadata": {
+            "cam": 1,
+            "catalog": "ep",
+            "ccd": 4,
+            "data_source": "SPOC",
+            "dec": -13.323362811247756,
+            "detection_class": "multiple",
+            "detection_count": 2,
+            "event_name": "EP261015a",
+            "flags": [
+              "preburst_signal",
+              "bad_gaussian"
+            ],
+            "gaussian_fit": {
+              "amplitude": null,
+              "center_offset": null,
+              "ok": false,
+              "sigma": null,
+              "snr": null,
+              "x0": null,
+              "y0": null
+            },
+            "peak_cadence_end_minutes": 43.46862393183983,
+            "peak_cadence_start_minutes": 40.13529059724533,
+            "peak_dt_minutes": 41.80195726454258,
+            "peak_flux_err_rate": 3.911650581537404,
+            "peak_flux_rate": 50.18666278290118,
+            "peak_snr": 12.830047504697164,
+            "peak_tess_mag": 16.188529205612422,
+            "peak_trigger_overlap": false,
+            "ra": 44.34117136526076,
+            "running_rms_high": true,
+            "running_rms_max": 32.00026065075115,
+            "search_snr": 73.6257867366125,
+            "sector": 109,
+            "source": "EP261015a_spoc_cand000_cam1_ccd4",
+            "status": "FLAG"
+          },
+          "category": "flag",
+          "plot": "forced_summary_flag_EP261015a_spoc_cand000_cam1_ccd4_cam1_ccd4.png"
+        }
+      ]
+    },
+    {
+      "representative": "EP261015a_spoc_cand001_cam1_ccd4",
+      "members": [
+        {
+          "metadata": {
+            "cam": 1,
+            "catalog": "ep",
+            "ccd": 4,
+            "data_source": "SPOC",
+            "dec": -13.327897745936783,
+            "detection_class": "none",
+            "detection_count": 0,
+            "event_name": "EP261015a",
+            "flags": [
+              "preburst_signal",
+              "no_post_detection",
+              "bad_gaussian"
+            ],
+            "gaussian_fit": {
+              "amplitude": null,
+              "center_offset": null,
+              "ok": false,
+              "sigma": null,
+              "snr": null,
+              "x0": null,
+              "y0": null
+            },
+            "peak_cadence_end_minutes": 46.80195527835167,
+            "peak_cadence_start_minutes": 43.46862194375717,
+            "peak_dt_minutes": 45.13528861105442,
+            "peak_flux_err_rate": 4.376348680123391,
+            "peak_flux_rate": 12.765165269693313,
+            "peak_snr": 2.916852884156708,
+            "peak_tess_mag": 17.67493389510836,
+            "peak_trigger_overlap": false,
+            "ra": 44.360489238389654,
+            "running_rms_high": true,
+            "running_rms_max": 33.47965819503056,
+            "search_snr": 4.808162715348968,
+            "sector": 109,
+            "source": "EP261015a_spoc_cand001_cam1_ccd4",
+            "status": "FLAG"
+          },
+          "category": "flag",
+          "plot": "forced_summary_flag_EP261015a_spoc_cand001_cam1_ccd4_cam1_ccd4.png"
+        }
+      ]
+    }
+  ]
+}
