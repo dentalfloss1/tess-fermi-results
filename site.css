@@ -113,6 +113,7 @@ pre {
 .candidate-multiple.has-events { background: #b8e0b8; border-color: #4d8b4d; }
 .candidate-single.has-events { background: #ffe29a; border-color: #ad7b00; }
 .candidate-flag.has-events { background: #f5b5ae; border-color: #a83c32; }
+.candidate-position.has-events { background: #d9cff2; border-color: #5b4a9b; }
 .candidate-badge.no-events { color: #666 !important; background: #eee; }
 
 @media (max-width: 700px) {
